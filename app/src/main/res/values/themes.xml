@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:tools="http://schemas.android.com/tools">
+
+    <style name="Theme.MorningNews" parent="android:Theme.Material.Light.NoActionBar" />
+
+    <!--
+      The splash theme is the launch theme; MainActivity swaps to the Compose theme once
+      content is set. postSplashScreenTheme must point at a non-splash theme or the app
+      keeps the splash background after launch.
+    -->
+    <style name="Theme.MorningNews.Starting" parent="Theme.SplashScreen">
+        <item name="windowSplashScreenBackground">@color/splash_background</item>
+        <item name="windowSplashScreenAnimatedIcon">@mipmap/ic_launcher</item>
+        <item name="postSplashScreenTheme">@style/Theme.MorningNews</item>
+    </style>
+
+</resources>

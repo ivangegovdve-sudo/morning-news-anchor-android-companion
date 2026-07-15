@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Morning News</string>
+
+    <string name="channel_briefing_ready">Briefing ready</string>
+    <string name="channel_briefing_ready_desc">Tells you when your morning briefing has finished generating.</string>
+    <string name="channel_playback">Playback</string>
+    <string name="channel_playback_desc">Controls for the briefing currently playing.</string>
+
+    <!-- Auth -->
+    <string name="auth_title">Morning News Anchor</string>
+    <string name="auth_subtitle">Sign in with the same Google account you use on the web app.</string>
+    <string name="auth_sign_in_google">Continue with Google</string>
+    <string name="auth_signing_in">Signing in…</string>
+
+    <!-- Nav -->
+    <string name="nav_dashboard">Today</string>
+    <string name="nav_briefings">Briefings</string>
+    <string name="nav_feeds">Feeds</string>
+    <string name="nav_inbox">Inbox</string>
+    <string name="nav_preferences">Settings</string>
+
+    <!-- Dashboard -->
+    <string name="dashboard_no_briefing_today">No briefing yet today</string>
+    <string name="dashboard_run_now">Run now</string>
+    <string name="dashboard_run_now_unavailable">Run now needs a backend endpoint that isn\'t deployed yet</string>
+    <string name="dashboard_play">Play briefing</string>
+
+    <!-- Feeds -->
+    <string name="feeds_add">Add feed</string>
+    <string name="feeds_name">Name</string>
+    <string name="feeds_url">Feed URL</string>
+    <string name="feeds_empty">No feeds yet. Add an RSS URL to pull stories from it.</string>
+    <string name="feeds_delete">Delete feed</string>
+
+    <!-- Inbox -->
+    <string name="inbox_subscriptions">Newsletters</string>
+    <string name="inbox_archive">Recently archived</string>
+    <string name="inbox_archive_empty">Nothing archived yet. The weekly sweep files newsletters older than 30 days.</string>
+
+    <!-- Preferences -->
+    <string name="prefs_voice">Voice</string>
+    <string name="prefs_delivery">Delivery</string>
+    <string name="prefs_auto_send">Send automatically each morning</string>
+    <string name="prefs_delivery_time">Delivery time</string>
+    <string name="prefs_timezone">Timezone</string>
+    <string name="prefs_sign_out">Sign out</string>
+
+    <string name="retry">Retry</string>
+    <string name="cancel">Cancel</string>
+    <string name="save">Save</string>
+</resources>

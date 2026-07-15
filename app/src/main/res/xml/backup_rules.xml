@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<full-backup-content>
+    <!--
+      supabase-kt persists the session (access + refresh token) in these prefs. Excluding
+      them keeps auth tokens out of cloud backups; the cost is re-signing in after a restore.
+    -->
+    <exclude domain="sharedpref" path="supabase_session.xml" />
+    <exclude domain="sharedpref" path="io.github.jan.supabase.auth.xml" />
+</full-backup-content>

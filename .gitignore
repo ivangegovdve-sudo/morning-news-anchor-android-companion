@@ -1,0 +1,23 @@
+# Build output — `build/` (not `/build`) so it matches app/build too.
+build/
+.gradle/
+.cxx/
+.externalNativeBuild/
+/captures/
+
+# Secrets and local config
+local.properties
+app/google-services.json
+*.jks
+*.keystore
+
+# IDE
+.idea/
+*.iml
+*.iws
+
+# JVM crash dumps — the Gradle daemon drops these in the project root when it dies.
+hs_err_pid*.log
+replay_pid*.log
+
+.DS_Store
